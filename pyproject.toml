@@ -1,0 +1,28 @@
+[project]
+name = "idb-geo"
+version = "0.0.1"
+description = "World Bank demo of using geo data"
+authors = [
+    {name = "baltierra",email = "fabs@illinois.edu"}
+]
+readme = "README.md"
+requires-python = "^3.10"
+dependencies = [
+    "streamlit (>=1.44.1,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "geopandas (>=1.0.1,<2.0.0)",
+    "geemap (>=0.35.3,<0.36.0)",
+    "earthengine-api (>=1.5.11,<2.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "streamlit-folium (>=0.24.1,<0.25.0)",
+    "folium (>=0.19.5,<0.20.0)",
+    "python-dateutil (>=2.9.0.post0,<3.0.0)",
+    "setuptools (>=79.0.0,<80.0.0)",
+    "numpy (>=2.2.5,<3.0.0)"
+]
+
+packages = []
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
